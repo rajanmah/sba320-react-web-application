@@ -1,8 +1,5 @@
 # React Web Application
-<!-- ba96e5b9ff9c4b9696ec5252da7f20c7 -->
+Getting Started with SBA 320 H
+I will be using api from NewsAPI for my application. It has daily 100 request which i think will be sufficient for development process and deployment. 
 
-<!-- public
-5536fc4123f855283167de50b1168035
-
-private
-9bc12f1a99068a47f91b4878e18c35abb79d60e1 -->
+I have attached SBA 320 wireframe.pdf for my application with this repo. 
