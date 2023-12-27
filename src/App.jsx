@@ -1,28 +1,27 @@
-import React from 'react'
-import Example from './components/Example'
-import Navbar from './components/navbar/Navbar'
-import Data from "./components/Data"
+import './app.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Header from './components/header/Header'
+import Home from  './pages/home/Home'
+import MovieList from './components/movieList/MovieList'
+
 
 
 function App() {
 
   return (
-    <>
-    <header>
-       <Navbar />
-    </header>
-   <section>
-  
-     <h3>World News</h3>
-     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, voluptates?</p>
-     <h3>World News</h3>
-     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, voluptates?</p>
-     <h3>World News</h3>
-     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, voluptates?</p>
-  
-   </section>
-     
-    </>
+    <div className="App">
+      <Router>
+        <Header />
+        <Routes>
+          <Route path='/' element={<Home />}> </Route>
+          <Route path='/movie/:id' element={<h1>Hello movie page</h1>}> </Route>
+          <Route path='/movies/:type' element={<MovieList />}> </Route>
+          <Route path='/*' element={<h1>error page</h1>}> </Route>
+        </Routes>
+      </Router>
+
+      {/* <h1>Hello WOrld</h1> */}
+    </div>
   )
 }
 
