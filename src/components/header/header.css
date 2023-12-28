@@ -4,6 +4,7 @@
     align-items: center;
     display: flex;
     justify-content:space-between;
+    text-shadow: 0px 0px 5px gray;
 }
 
 .headerLeft, .headerRight {

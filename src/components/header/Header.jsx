@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import { Link } from "react-router-dom"
+import MovieSearch from '../search/MovieSearch'
 
 export default function Header() {
   return (
@@ -9,6 +10,8 @@ export default function Header() {
        <Link to='/movies/popular'style={{textDecoration:"none"}}> <span>Popular</span> </Link>
        <Link to='/movies/top_rated'style={{textDecoration:"none"}}><span>Top Rated</span> </Link>
        <Link to='/movies/upcoming'style={{textDecoration:"none"}}><span>Upcoming</span> </Link>
+       {/* <MovieSearch /> */}
     </div>
+    
   )
 }
