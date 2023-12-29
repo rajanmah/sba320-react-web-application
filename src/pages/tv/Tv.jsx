@@ -26,7 +26,7 @@ export default function Tv  () {
 
     return (
         <div className="movie__list">
-            <h2 className="list__title">{"TELEVISION"}</h2>
+            <h2 className="list__title">{"TELEVISION SERIES"}</h2>
             <div key="movie.id" className="list__cards">
                 {
                     tvList.map(movie => (

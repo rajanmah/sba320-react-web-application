@@ -9,6 +9,7 @@ import Tv from './pages/tv/Tv'
 
 
 
+
 export default function App() {
 
   return (
@@ -27,8 +28,7 @@ export default function App() {
       </Router>
 <hr />
       <footer className="footer">
- 
-         © 2023 </footer>
+ © 2023 | All rights reserved. </footer>
          <hr/>
     </div>
   )

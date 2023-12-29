@@ -14,7 +14,8 @@ export default function Card ({movie}) {
                     <div className="card__runtime">
                         {movie?movie.release_date:""}
                     </div>
-                    <div className="card__description">{movie ? movie.overview.slice(0,118)+"..." : ""}</div>
+                    <div className="card__description">{movie ? movie.overview.slice(0,120)+"..." : ""}</div> 
+                    {/* showing 120 chars */}
                 </div>
             </div>
         </Link>
