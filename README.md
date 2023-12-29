@@ -9,3 +9,9 @@ I decided to use api from TheMovieDB and build a movie app.
 
 --------------------------------
 # The Movie Application
+I fetched the movie data from the API then walked through the data. I decided to display movies in cards in different categories such as popular, trending, top-rated and upcoming (which was much easier). I created the cards page and display pages for above mentioned categories. Then i tried to create carousel using 'react responsive carousel'. I placed search component in the home page. 
+
+I used:
+fetch() to fetch apis
+useState and useEffect
+react responsive carousel

@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import './movielist.css'
 
 
-const MovieList = () => {
+export default function MovieList () {
     
     const [movieList, setMovieList] = useState([])
     const {type} = useParams()
@@ -25,7 +25,7 @@ const MovieList = () => {
 
     return (
         <div className="movie__list">
-            <h2 className="list__title">{(type ? type : "POPULAR").toUpperCase()}</h2>
+            <h2 className="list__title">{(type ? type : "TOP RATED").toUpperCase()}</h2>
             <div key="movie.id" className="list__cards">
                 {
                     movieList.map(movie => (
@@ -37,4 +37,3 @@ const MovieList = () => {
     )
 }
 
-export default MovieList
