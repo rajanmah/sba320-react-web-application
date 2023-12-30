@@ -37,6 +37,7 @@ export default function Home() {
                     transitionTime={3}
                     infiniteLoop={true}
                     showStatus={false}
+                // dynamicHeight={true}
                 >
                     {
                         latestMovies.map(movie => (

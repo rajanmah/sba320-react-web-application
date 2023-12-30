@@ -5,6 +5,7 @@ import Home from  './pages/home/Home'
 import MovieList from './components/movieList/MovieList'
 import Movie from './pages/movieDetail/Movie'
 import Trending from './pages/trending/Trending'
+import Tvshow from './pages/tvshow/Tvshow'
 import Tv from './pages/tv/Tv'
 
 
@@ -22,6 +23,8 @@ export default function App() {
           <Route path='/movie/:id' element={<Movie />}> </Route>
           <Route path='/movies/:type' element={<MovieList />}> </Route> 
           <Route path='/discover/tv' element={<Tv />}> </Route> 
+          <Route path='/tv/:id' element={<Tvshow />}> </Route> 
+
 
           <Route path='/*' element={<h1>error page</h1>}> </Route>
         </Routes>
