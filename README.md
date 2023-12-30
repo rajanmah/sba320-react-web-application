@@ -18,6 +18,6 @@ react responsive carousel
 
 It has 6 different pages including home page. The home page displays carousel of popular movies. It also has a search option displays relevant movies in cards.
 
-The header has five different links which displays list of movies in cards. Each card is linked to different page with details of that particular movie with Name, Release Date, Duration and brief Synopsis. There is a link to IMDb page too.
+The header has five different links that display list of movies in cards. Each card is linked to different page with details of that particular movie with Name, Release Date, Duration and brief Synopsis. There is a link to IMDb page or homepage to each of the movies or tv series.
 
 Trending list displays both movies and tv series. The individual link work for movies but not for the tv series - tv series (without 'name of the series') displays nothing.
