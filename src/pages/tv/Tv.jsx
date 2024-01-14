@@ -10,7 +10,7 @@ export default function Tv() {
   useEffect(() => {
     const getData = async () => {
       try {
-        const response = await fetch(`https://api.themoviedb.org/3/discover/tv?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US`);
+        const response = await fetch(`https://api.themoviedb.org/3/discover/tv?api_key=05fc1aa79d3ce4aac049790fca464bad&language=en-US`);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

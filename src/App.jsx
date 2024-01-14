@@ -31,7 +31,7 @@ export default function App() {
       </Router>
 <hr />
       <footer className="footer">
- © 2023 | All rights reserved. </footer>
+ © PamsR, 2023 | All rights reserved. </footer>
          <hr/>
     </div>
   )
